@@ -1,1 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/jwk/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:voctor-lab:Gaya-X_Testing_Workshop:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:voctor-lab:Gaya-X_Testing_Workshop:main#my-key",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:voctor-lab:Gaya-X_Testing_Workshop:main",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "oODzM4UJUCiyAuNBmMY3DuBvBkFi-rbzspJP3k0K38IxtM5FArHEczonXU3AR8zv4x5EkYJDhPK7COjyLqtWo8vjGQy6CVmi1cOYzEQru7gtyntA7YhJMiDF_9gJPdHk-tZDXeyELpHko2pFJl3oQJ3rbfUKnYPo7GV6lbPjPg3mF3xS4QfFSmMGRNDGKgfd9I3ERkL4XEDKakG9L-l8Q81UjT9xWaEvCxZTiEwYcDWWDMtCL_GJKDP_V4wRPPZlnCF8iQyR0Eup2FbEY5v5XPEQsWqzCdp3wqS4HGpkBvNDrRHk-JDnEYY_7UQK6LElS7GRNcXH8zvXbMGctGLwaTRrQ",
+        "e": "AQAB",
+        "alg": "PS256",
+        "kid": "my-key"
+      },
+      "x5u": "https://raw.githubusercontent.com/voctor-lab/Gaya-X_Testing_Workshop/main/cert.pem"
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:voctor-lab:Gaya-X_Testing_Workshop:main#my-key"
+  ]
+}
 
