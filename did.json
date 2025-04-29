@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/jwk/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:vector-lab:Gaya-X_Testing_Workshop:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:vector-lab:Gaya-X_Testing_Workshop:main#my-key",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:vector-lab:Gaya-X_Testing_Workshop:main",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "REEMPLAZA_ESTO",  
+        "e": "AQAB",
+        "alg": "PS256",
+        "kid": "my-key"
+      },
+      "x5u": "https://raw.githubusercontent.com/vector-lab/Gaya-X_Testing_Workshop/main/x509CertificateChain.pem"
+    }
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:vector-lab:Gaya-X_Testing_Workshop:main#my-key"
+  ]
+}
